@@ -8,10 +8,9 @@ public class Entry
     public  string _promptText;
 
     public  string _entryText;
-    string usertext = Console.ReadLine();
 
     public void Display()
     {
-
+        Console.WriteLine($"{_date}, {_promptText}, {_entryText}");
     }
 }
